@@ -16,7 +16,7 @@ def config():
     ck = []
     cp = configparser.RawConfigParser()
     cp.read('config.ini')
-    ck.append(cp.get('cookies', 'cookie1'))
+    ck.append(cp.get('cookies', 'cookie'))
     return ck
 
 
